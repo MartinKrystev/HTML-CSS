@@ -1,0 +1,27 @@
+html{
+    background-color: rgb(221, 223, 224);
+}
+body, ul, li{
+    display: flex;
+}
+ul{
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    /* align-items: stretch; */
+}
+li{
+    border: 5px solid black;
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+    flex: 1 0 25%;
+    
+}
+/* img{
+   max-width: 50%;
+   height: auto;
+} */
+
