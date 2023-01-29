@@ -1,0 +1,59 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+
+form{
+    background-color: rgb(233, 233, 233);
+}
+legend{
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: -1px 1px 7px 2px rgba(0,0,0,1);
+    -webkit-box-shadow: -1px 1px 7px 2px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 1px 7px 2px rgba(0,0,0,1);
+    background-color: rgb(233, 230, 230);
+}
+div{
+    width: 50%;
+    margin: 20px;
+}
+
+i{
+    position: relative;
+    left: 22px;
+    top: 2px;
+}
+input{
+    padding-left: 18px;
+    height: 20px;
+}
+button{
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(56, 54, 54);
+    padding: 5px 15px;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+}
+p{
+    display: inline;
+    font-weight: bold;
+}
+
+input:focus{
+    background-color: rgb(222, 250, 245);
+}
+i:focus{
+    color: white;
+}
+
+@media (max-width: 800px){
+    .title{
+        left: 137px;
+    }
+    i{
+        left: -68px;
+        top: 22px;
+    }
+}
