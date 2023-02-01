@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i");
+
+@media (max-width: 600px){
+    body{
+        font-size: 12px;
+    }
+
+    header{
+        background: linear-gradient(rgba(165, 163, 163, 0.3), rgba(165, 163, 163, 0.3)),
+            url(./images/header-pic.jpg) no-repeat;
+        background-size: 100%;
+
+        padding: 1rem 0;
+        text-shadow: 1px 1px 1px rgb(80, 79, 79);
+    }
+
+    header nav{
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+        padding: 0.1rem;
+    }
+    header nav ul li a {
+        font-size: 10px;
+    }
+
+    .header-title {
+        padding: 1em 0;
+    }
+    .header-title h1 {
+        font-size: 34px;
+        padding-bottom: 0.2em;
+    }
+    .header-title p {
+        font-size: 14px;
+    }
+    .header-title button {
+        padding: 0.5em 0.7em;
+        color: rgb(104, 102, 102);
+        font-size: 12px;
+        background: rgb(231, 238, 240);
+        margin-top: 1em;
+    }
+    
+    h3 {
+        font-size: 16px;
+    }
+    .team-description-wrapper,
+    .about-us {
+        padding: 1.5rem 0;
+    }
+    .blog-section p:nth-child(2),
+    .team-description p:nth-child(2),
+    .about-us p:nth-child(2) {
+        padding-bottom: 1.5rem;
+    }
+    .choose-us {
+        padding: 1.5rem 0;
+        /* background: rgb(231, 242, 245);     */
+    }
+
+    .team-description ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .team-description ul li img {
+        width: 160px;
+        height: 160px;
+        padding-bottom: 0.2rem;
+    }
+
+    .choose-us {
+        padding: 2rem 0;
+    }
+    .choose-us ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .choose-us li {
+        width: 50%;
+        align-self: center;
+    }
+
+    .blog-news {  
+        padding: 2rem 0;
+    }
+    .blog-news ul {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 1.5rem;
+    }
+    .blog-news ul .item {
+        width: 70%;
+        align-self: center;
+    }
+}
