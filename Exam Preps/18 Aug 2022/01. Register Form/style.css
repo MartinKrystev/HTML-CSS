@@ -1,0 +1,113 @@
+@import url('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body{
+    font-family: "Mulish", sans-serif;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+}
+
+.title{
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.images{
+    position: relative;
+}
+.outer{
+    width: 100%;
+}
+.inner{
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+
+    box-shadow: 10px 13px 10px -1px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 10px 13px 10px -1px rgba(0,0,0,0.68);
+    -moz-box-shadow: 10px 13px 10px -1px rgba(0,0,0,0.68);
+}
+
+.reg{
+    display: inline-block;
+    position: absolute;
+    width: 36%;
+    height: 42%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(images/form-background.png);
+    border-radius: 20px;
+    box-shadow: 10px 13px 10px -1px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 10px 13px 10px -1px rgba(0,0,0,0.68);
+    -moz-box-shadow: 10px 13px 10px -1px rgba(0,0,0,0.68);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+.flex-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.double{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    justify-content: space-between;
+}
+.first-name, .last-name{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+    margin-bottom: 5px;
+}
+.email, .pass, .re-pass{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+input{
+    border-radius: 20px;
+    border: 1px solid rgb(133, 133, 133);
+    height: 25px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+label{
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.checkbox{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+.checkbox input{
+    width: 12px;
+    display: inline;
+}
+.checkbox label{
+    display: inline;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: brown;
+    border: none;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button:hover{
+    cursor: pointer;
+}
