@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+h1{
+    font-family: 'Abril Fatface', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.pic{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/* TOP left*/
+.pic .logo{
+
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    background-color: transparent;
+    width: 13%;
+    padding: 5px 20px;
+
+    box-shadow: 2px 6px 17px 3px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 2px 6px 17px 3px rgba(0,0,0,0.66);
+    -moz-box-shadow: 2px 6px 17px 3px rgba(0,0,0,0.66);
+
+    border-radius: 2px;
+}
+.pic .logo .devider{
+    height: 1px;
+    width: 70%;
+    border-top: 1px solid white;
+}
+
+/* TOP right */
+.note{
+    background: rgb(158,149,141);
+    background: linear-gradient(90deg, rgba(158,149,141,1) 35%, rgba(203,201,199,1) 100%);
+    width: 23%;
+    padding: 16px 12px 12px 12px;
+    line-height: 1.4;
+    color: rgb(233, 233, 233);
+    /* font-size: 14px; */
+    text-align: right;
+    text-shadow: 1px 1px #05053c;
+
+    position: absolute;
+    top: 220px;
+    right: 35px;
+
+    box-shadow: 2px 6px 17px 3px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 2px 6px 17px 3px rgba(0,0,0,0.66);
+    -moz-box-shadow: 2px 6px 17px 3px rgba(0,0,0,0.66);
+
+    border-radius: 2px;
+}
+.note .quotes{
+    color: #8d8581;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: -60px;
+}
+
+
+/* OUR SERVICES */
+.services{
+    width: 55%;
+    padding: 30px 70px;
+    background-color: #f2f0f3;
+}
+.text{
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.text:nth-child(5){
+    margin-bottom: 70px;
+}
+.services i,
+.services p{
+    display: inline;
+}
+i{
+    padding-right: 10px;
+}
+
+/* CONTACTS */
+.contacts{
+    background-color: #f2f0f3;
+}
+.divider-contact{
+    width: 140%;
+    border-top: 3px solid #bab1ad;
+    position: relative;
+    bottom: 20px;
+    right: 70px;
+}
+.contact-info{
+    margin-right: 100px;
+    line-height: 1.8;
+}
+.more-info{
+    display: inline-block;
+}
+.info{
+    padding-right: 10px;
+}
+#italic{
+    font-style: italic;
+    padding-right: 5px;
+}
+
+.input-mail{
+    background-color: #bab1ad;
+    width: 40%;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    font-size: 12px;
+    margin-right: 8px;
+}
+.input-mail::placeholder{
+    color: white;
+}
+button{
+    background-color: #67784d;
+    width: 13%;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    font-size: 12px;
+    color: white;
+}
+
+/* RIGHT SECTION */
+.aditional{
+    background-color: #bab1ad;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    line-height: 0;
+    padding-left: 30px;
+}
+.aditional .num{
+    font-size: 60px;
+    font-weight: lighter;
+    color: white;
+}
+.aditional .desc{
+    position: relative;
+    bottom: 18px;
+}
+
+.bottom-section{
+    display: flex;
+}
