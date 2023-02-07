@@ -1,0 +1,61 @@
+@media (max-width: 800px){
+
+    /* navigation */
+    nav{
+        flex-direction: column;
+    }
+    .nav-options{
+        flex-direction: column;
+        align-items: center;
+        padding: unset;
+    }
+
+    /* background picture */
+    header div{
+        padding: unset;
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../image/dancing-girl.png") no-repeat center center;
+
+        /* PROBLEM with the background-image */
+    }
+    header div h1 {
+        padding: 1em 0.5em 0 0.5em;
+        font-size: 60px;
+    }
+    header div p{
+        padding: 1em 0.5em 5em 2em;
+    }
+
+    /* training */
+    .trainings{
+        flex-direction: column;
+        justify-content: space-between;
+    } 
+    .trainings div{
+        width: 50%;
+    }
+
+    /* instructors */
+    .instructors-pic{
+        justify-content: center;
+    }
+
+    /* classes */
+    .classes li{
+        width: 40%;
+    }
+
+    /* getInTouch */
+    .getInTouch{
+        display: block;
+    }
+
+    /* footer */
+    .site-footer .wrapper{
+        /* display: block; */
+        flex-wrap: wrap;
+    }
+    .site-footer .about{
+        min-width: 100%;
+    }
+
+}
