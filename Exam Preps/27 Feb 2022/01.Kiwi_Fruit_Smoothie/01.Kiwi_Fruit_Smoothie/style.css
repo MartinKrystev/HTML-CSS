@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.root{
+    --clr-green: #058205;
+}
+/* RESOLUTION: 1015 x 885 */
+
+body{
+    font-family: 'PT', serif;
+}
+.flex{
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+}
+
+/* left section */
+.flex .left{
+    background-image: url(image/image1.png);
+    display: inline-block;
+}
+.flex .left h1{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 22px;
+}
+.flex .left .divider{
+    border-bottom: 1px dotted green;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.flex .left .text-left,
+.flex .left .text-right{
+    font-style: italic;
+    margin-left: 20px;
+}
+.flex .left .text-right{
+    float: right;
+    margin-right: 20px;
+}
+.flex .left .recipe .green{
+    color: #058205;
+    font-weight: bold;
+}
+.flex .left .recipe {
+    line-height: 0.3;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.flex .left .info{
+    margin-bottom: 40px;
+    line-height: 1.3;
+}
+.flex .left .info,
+table{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+table tr th, td{
+    border:1px solid #058205;
+    text-align: center;
+}
+
+
+/* right section */
+.flex .right{
+    /* padding-top: 10px; */
+}
+.flex .right img{
+    object-fit: cover;
+    width: 37vw;
+    position: relative;
+    top: 18px;
+}
