@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* text - #072454 */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins';
+}
+p{
+    font-family: 'Open Sans';
+}
+
+/* header */
+header nav ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: #072454;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+header .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* hero-section */
+main .dog{
+    background-image: url('images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    
+    position: relative;
+    margin-bottom: 120px;
+}
+main .dog .dog-info{
+    width: 40%;
+    color: white;
+    padding-top: 50px;
+    padding-left: 220px;
+}
+main .dog .dog-info h2{
+    font-weight: lighter;
+    margin-bottom: 0;
+    font-size: 70px;
+}
+main .dog .dog-info h1{
+    margin-top: -40px;
+    margin-bottom: -10px;
+    font-size: 70px;
+}
+main .dog .dog-info p{
+    width: 50%;
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 28px;
+}
+
+/* button contact us */
+main .dog .btn{
+    border: none;
+    color: #ff3300;
+    border-radius: 16px;
+    padding: 8px 24px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+
+main .dog-pic{
+    width: 60%;
+    position: absolute;
+    top: 90px;
+    right: 60px;
+}
+
+/* second section */
+.services h2{
+    font-size: 40px;
+    margin-bottom: -15px;
+    text-align: center;
+}
+.services p{
+    font-size: 14px;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+    color: #919193;
+    margin-bottom: 80px;
+}
+
+.services .cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+.services .cards .card{
+    width: 20%;
+    border: 1px solid #ffc6c2;
+    border-radius: 8px;
+    background-image: url('images/service-bg.png');
+    background-repeat: no-repeat;
+    background-position: 50px 50px;
+    position: relative;
+}
+.services .cards .card .pet img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.services .cards .card h3{
+    text-align: center;
+}
+.services .cards .card p{
+    width: 80%;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+/* CAT section */
+.cat{
+    display: flex;
+    justify-content: center;
+}
+.cat .cat-pic img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cat .cat-info{
+    width: 35%;
+}
+.cat .cat-info h2{
+    font-weight: normal;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.cat .cat-info h1{
+    margin-top: -30px;
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+.cat .cat-info p{
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #666670;
+}
+.cat .cat-info .about-us{
+    border: none;
+    color: white;
+    background: linear-gradient(90deg, rgba(240,68,50,1) 0%, rgba(237,90,7,1) 100%);
+    border-radius: 16px;
+    padding: 8px 24px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+
+/* Anipat section */
+.anipat{
+    background-image: url('images/cats-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    margin-bottom: 60px;
+    height: 650px;
+}
+.anipat h2{
+    padding-top: 120px;
+    text-align: center;
+    font-size: 30px;
+}
+.anipat p{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.anipat .btn-or{
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+}
+.anipat .btn-or .anipat-text{
+    width: 20%;
+    margin: 0;
+    padding-left: 20px;
+}
+.anipat .btn-or .anipat-text p{
+    margin: unset;
+    display: inline;
+}
+.anipat .btn-or .contact-us{
+    border: none;
+    color: #ff3300;
+    border-radius: 16px;
+    padding: 8px 24px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 60px;
+}
+footer h2{
+    margin-top: 0;
+}
+footer .four{
+    width: 20%;
+}
+
+
+footer .first{
+    display: flex;
+    gap: 20px;
+}
